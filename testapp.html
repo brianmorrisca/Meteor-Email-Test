@@ -1,0 +1,19 @@
+<head>
+  <title>testapp</title>
+</head>
+
+<body>
+  {{> simpleForm}}
+</body>
+
+<template name="simpleForm">
+	<form id="myform">
+		<label>First</label>
+	    <input type="text" name="firstname"/>
+		<label>Last</label>	    
+	    <input type="text" name="lastname"/>
+		<label>Email</label>	    
+	    <input type="text" name="email"/>
+	    <input type="submit" id="submit"/>
+	</form>
+</template>
